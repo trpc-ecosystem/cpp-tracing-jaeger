@@ -1,0 +1,11 @@
+plugins:
+  tracing:
+    jaeger:
+      disabled: false
+      service_name: bochen_test
+      enable_logger: true
+      reporter:
+        logSpans: true
+      sampler:
+        type: const
+        param: 1
