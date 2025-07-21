@@ -197,3 +197,9 @@ if (span) {
 ## Notice
 
 * In the proxy mode, it is necessary to invoke the framework's `MakeClientContext` interface to construct the `ClientContext` based on the `ServerContext`. Otherwise, the call relationship between the server and client will be lost, and a complete call chain cannot be formed.
+
+# LICENSE
+
+[LICENSE](LICENSE)
+
+The copyright notice pertaining to the Tencent code in this repo was previously in the name of “THL A29 Limited.”  That entity has now been de-registered.  You should treat all previously distributed copies of the code as if the copyright notice was in the name of “Tencent.”
